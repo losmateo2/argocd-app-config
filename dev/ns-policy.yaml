@@ -67,10 +67,6 @@ spec:
         operator: In
         values:
           - du
-status:
-  decisions:
-    - clusterName: r1-du1
-      clusterNamespace: r1-du1
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
